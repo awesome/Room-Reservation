@@ -85,8 +85,12 @@ $room_time_height: 20px;
   input[type="radio"], input[type="checkbox"] { margin: 0px 4px 0px; }
 }
 
-.popover .room-image {
-  display: block;
-  margin: 4px auto;
-  max-width: 70%;
+body > .popover {
+  max-width: 320px;
+  .room-image {
+    display: block;
+    margin: 4px auto;
+    max-width: 100px;
+    float: right;
+  }
 }
